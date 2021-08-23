@@ -1,0 +1,1165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+#firstdiv{
+    height: 5.3em;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0em 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+#container{
+    height: 4.5em;
+    width: 86%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+#container img{
+    height: 70%;
+    /* border: 1px solid purple; */
+    padding: 0.9em 0em;
+    cursor: pointer;
+}
+#container ul{
+    list-style: none;
+    /* border: 1px solid violet; */
+    display: flex;
+    padding: 1.3em 0em;
+}
+#container li{
+    /* border: 1px solid brown; */
+    height: 2.4em;
+    padding: 0em 0.97em;
+    cursor: pointer;
+}
+hr{
+    visibility: hidden;
+    height: 3px;
+    width: 0%;
+    background-color: orangered;
+    position: relative;
+    top: 0.6em;
+    border: none;
+    transition-duration: 0.55s;
+}
+#container ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14.6px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#container ul li:hover a{
+    color: orangediv;
+}
+#container ul li:hover hr{
+    visibility: visible;
+    width: 100%;
+    transition: all 0.55s;
+}
+/* 2div */
+#seconddiv{
+    height: 43em;
+    width: 100%;
+    background-image: url(./pics/slider-01.jpg);
+    background-size: cover;
+    position: relative;
+    /* border: 2px solid blue; */
+}
+#browndiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    opacity: 0.4;
+}
+#famili{
+    position: absolute;
+    top: 6em;
+    letter-spacing: 1.5px;
+    left: 6em;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#lorem{
+    position: absolute;
+    top: 10.5em;
+    left: 8em;
+    width: 21.2em;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 23px;
+    color: white;
+}
+#phonepic{
+    position: absolute;
+    top: 11em;
+    right: 12em;
+    height: 24.5em;
+    width: 23em;
+    background-image: url(./pics/app_iphone_01.png);
+    background-size: cover;
+}
+.app{
+    height: 3em;
+    width: 8em;
+    background-color: rgb(63, 61, 61);
+    position: absolute;
+    top: 21em;
+    left: 14em;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 1em;
+    font-size: 18px;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    /* display: inline-block; */
+}
+.orange{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: orangered;
+    transition-duration: 1s;
+    z-index: -1;
+}
+.app:hover .orange{
+    left: 0%;
+    transition-duration: 1s;
+}
+.google{
+    left: 24em;
+    width: 9.2em;
+}
+#aboutdiv{
+    width: 100%;
+    height: 90em;
+    position: relative;
+}
+#aboutdiv h2{
+    font-size: 2.2em;
+    position: absolute;
+    top: 3.5em;
+    left: 16em;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+}
+#aboutdiv p{
+    font-family: sans-serif;
+    color: rgb(194, 184, 184);
+    position: absolute;
+    top: 12.5em;
+    left: 16em;
+    width: 45em;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.aboutpic1{
+    position: relative;
+    top: 20em;
+    left: 5em;
+    height: 30em;
+    width: 39em;
+    background-image: url(./pics/about-01.png);
+    background-size: cover;
+}
+.easy{
+    position: relative;
+    top: -3em;
+    left: 23em;
+    height: 11em;
+    width: 14.5em;
+    /* border: 1px solid red;  */
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold; 
+}
+.easy span{
+    position: absolute;
+    top: 3em;
+    left: 0em;
+    font-size: 15px;
+    color: rgb(190, 178, 178);
+    line-height: 2em;
+}
+.get{
+    top: 3em;
+    left: 3em;
+}
+.aboutpic2{
+    background-image: url(./pics/about-02.png);
+    background-size: cover;
+    top: -21em;
+    left: 35em;
+}
+#featurediv{
+    position: relative;
+    height: 66em;
+    width: 100%;
+    background-color: #f2f3f5;
+}
+#featurediv h2{
+    font-size: 2.2em;
+    position: absolute;
+    top: 3.5em;
+    left: 13.4em;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
+}
+#featurediv p{
+    font-family: sans-serif;
+    color: rgb(194, 184, 184);
+    position: absolute;
+    top: 12.5em;
+    left: 16em;
+    width: 45em;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#sixdivs{
+    position: relative;
+    top: 22em;
+    height: 40em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 280px 280px;
+    /* border: 1px solid red; */
+    grid-gap: 2em;
+    padding-left: 5em;
+}
+#sixdivs div[class^=div]{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#sixdivs div[class^=div]:hover{
+    box-shadow: 0.5px 0.5px 5px 0px lightgray;
+}
+.browndiv{
+    position: relative;
+    top: 1em;
+    left: 1em;
+    height: 88px;
+    width: 88px;
+    background-color: brown;
+    overflow: hidden;
+}
+.orangediv{
+    position: absolute;
+    top: 0.6em;
+    left: 0.6em;
+    background-color: orangered;
+    width: 70px;
+    height: 70px;
+    transition-duration: 1s;
+}
+.orangediv i{
+    color: white;
+    font-size:35px;
+    padding: 0.5em;
+}
+#sixdivs div[class^=div]:hover .orangediv{
+    transform: scale(1.29);
+    transition-duration: 1s;
+}
+#sixdivs div[class^=div] h4{
+    font-family: sans-serif;
+    position: absolute;
+    top: 6.5em;
+    letter-spacing: 1px;
+    left: 1em;
+    font-size: 19px;
+}
+#sixdivs div[class^=div]  span{
+    font-family: sans-serif;
+    position: absolute;
+    top: 10em;
+    left: 1em;
+    line-height: 1.8em;
+    color: rgb(182, 179, 179);
+}
+
+#black4divs{
+    /* height: 300px; */
+    width: 100%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 300px;
+    color: white;
+    background-color: #000;
+    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#black4divs div[class^=div]{
+    box-sizing: border-box;
+    padding: 2.5em 5em
+}
+#black4divs div[class^=div]:hover{
+    background-color: orangered;
+    transition: all 1s;
+}
+#black4divs div[class^=div] h6{
+    position: relative;
+    left: -2.5em;
+    width: 9em;
+    top: 0.5em;
+    color: rgb(187, 184, 184);
+    font-weight: normal;
+    font-size:22px;
+}
+#black4divs div[class^=div] p{
+    position: relative;
+    left: -7em;
+    top:2em;
+    line-height: 2em;
+    font-weight: normal;
+    font-size:15px;
+    width: 16.4em;
+}
+#black4divs div[class^=div] i{
+    position: relative;
+    top: 1.2em;
+    font-style: italic;
+    font-size: 1.2em;
+    animation: move 1s linear infinite;
+    visibility: hidden;
+}
+@keyframes move {
+    0%{
+        left: -380%;
+    }
+    100%{
+        left: 380%;
+    }
+    
+}
+#black4divs div[class^=div]:hover i{
+    visibility: visible;
+}
+
+/* clientdiv */
+#clientdiv{
+    width: 100%;
+    height: 48em;
+    /* border: 1px solid red; */
+    position: relative;
+    background-color: #ffffff;
+}
+#clientdiv h2{
+    font-family: sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 3.3em;
+    left: 15em;
+}
+#clientdiv p{
+    font-family: sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 11.5em;
+    left: 19em;
+    line-height: 2em;
+    color: lightgray;
+    width: 40em;
+    text-align: center;
+}
+#whitediv{
+    position: absolute;
+    height: 340px;
+    width: 715px;
+    background-color: #fff;
+    top: 20em;
+    left: 18.5em;
+    color: #777;
+    box-shadow: 0px 0px 3px 0px rgb(164, 164, 214);
+    /* border: 1px solid red; */
+}
+#whitediv i{
+    position: absolute;
+    left: 2.6em;
+    top: 3em;
+}
+#whitediv span{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    left: 5em;
+    top: 3em;
+    line-height: 2em;
+}
+#whitediv div{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    left: 12em;
+    top: 6.5em;
+    color: #363636;
+}
+#whitediv #web{
+    position: absolute;
+    top: 13em;
+    left: 20em;
+    font-size: 15px;
+    font-weight: normal;
+}
+#whitediv .threeclients{
+    position: absolute;
+    top: 9.5em;
+    left: 10em;
+    /* border: 1px solid red; */
+    height: 1.7em;
+    width: 9em;
+}
+#whitediv .threeclients .client1{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(./pics/client1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 1.7em;
+    border-radius: 50%;
+    border: 4px solid orangered;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+#whitediv .threeclients .client2{
+    background-image: url(./pics/client2.jpg);
+    background-size: cover;
+    border: 4px solid black;
+}
+#whitediv .threeclients .client3{
+    background-image: url(./pics/client3.jpg);
+    background-size: cover;
+    border: 4px solid black;
+}
+/* faqdiv */
+#faqdiv{
+    position: relative;
+    width: 100%;
+    height: 40em;
+    background-color: #E65100;
+}
+.circle{
+    position: absolute;
+    top: 15.2em;
+    left: 5em;
+    height: 0.8em;
+    width: 0.8em;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.line{
+    position: absolute;
+    top: 16.1em;
+    left: 5.4em;
+    height: 3em;
+    width: 1px;
+    background-color: #000;
+}
+.circle2{
+    top: 19.1em;
+}
+.line2{
+    top: 20em;
+}
+.circle3{
+    top: 23em;
+}
+.line3{
+    top: 23.9em;
+    height: 2em;
+}
+.questiondiv{
+    height: 50px;
+    width: 485px;
+    background-color: #fff;
+    position: relative;
+    top: 11.5em;
+    left: 6.2em;
+    color: #550527;
+    cursor: pointer;
+    border-left: 2px solid #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    letter-spacing: 1px;
+    margin-top: 0.6em;
+}
+.plus{
+    position: absolute;
+    height: 1.4em;
+    width: 1.4em;
+    top: 0.5em;
+    right: 1.2em;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 1px 6px;
+}
+.plus i{
+    color: black;
+    font-size: 16px;
+}
+.faqpic{
+    top: -4em;
+    left: 41em;
+    width:33.5em;
+    height: 27em;
+}
+/* contactdiv */
+#contactdiv{
+    height: 900px;
+    width: 100%;
+    background-image: url(./pics/bg.png);
+    background-size: cover;
+    position: relative;
+}
+#lightblack{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.66;
+}
+#get{
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 38px;
+    position: absolute;
+    top: 4em;
+    left: 13.3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#questionmark{
+    position: absolute;
+    top: 14.5em;
+    left: 38.5em;
+    height: 1.55em;
+    width: 1.55em;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 4px 6px;
+}
+.input{
+    position: relative;
+    left: 3em;
+    top:25em;
+    height: 4em;
+    width: 40em;
+    background: transparent;
+    border: none;
+    outline: none;border-bottom: 1px solid #fff;
+    display: inline-block;
+    margin-left: 3em;
+    margin-top: 3.5em;
+}
+.input::placeholder{
+    position: absolute;
+    top: 0;
+    left: 1em;
+    color: white;
+    font-size:17px;
+    letter-spacing: 1px;
+}
+.give{
+    height: 10em;
+    width: 83.3em;
+}
+.quote{
+    position: absolute;
+    top: 41em;
+    left: 4.5em;
+    background-color: #fff;
+    color: black;
+    height: 2.8em;
+    font-size: 18px;
+    text-transform: none;
+    padding: 0.8em 1.2em;
+}
+/* lastdiv */
+#lastdiv{
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 430px;
+    position: relative;
+}
+#lastdiv h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    position: absolute;
+    left: 13em;
+    top: 2.7em;
+}
+#lastdiv p{
+    color: gray;
+    font-family: sans-serif;
+    width: 39em;
+    position: absolute;
+    left: 19.5em;
+    top: 9em;
+    line-height: 1.8em;
+}
+#lastdiv input{
+    height: 50px;
+    width: 400px;
+    position: relative;
+    left: 31em;
+    top: 18em;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+#lastdiv input:focus{
+    border: 2px solid rgb(89, 89, 146);
+}
+#lastdiv input::placeholder{
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    font-size: 16px;
+}
+#lastorangediv{
+    height: 50px;
+    position: absolute;
+    left: 28.54em;
+    top: 9.6em;
+    width: 100px;
+    background-color: orangered;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0.5em 1.4em;
+    color: white;
+    font-size: 25px;
+}
+#lastorangediv:hover{
+    background-color: #000;
+}
+#dottedline{
+    width: 100%;
+    border: 0.1px dotted grey;
+    position: relative;
+    top: 19em;
+}
+#rights{
+    font-family: sans-serif;
+    position: absolute;
+    top: 27em;
+    left: 30em;
+    color: gray;
+    font-size: 14px;
+}
+#rights span{
+    color: white;
+    cursor: pointer;
+}
+#rights span:hover{
+    color: orangered;
+}
+
+/* download */
+#downloaddiv{
+    height: 588px;
+    width: 100%;
+    background-image: url(./pics/d-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+#lightorange{
+    position: absolute;
+    background-color: orangered;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+#start{
+    position: absolute;
+    top: 5.4em;
+    left: 2.4em;
+    font-family: sans-serif;
+    font-size: 37px;
+    color: white;
+}
+#downloaddiv p{
+    position: absolute;
+    top: 17em;
+    left: 5.7em;
+    font-family: sans-serif;
+    color: lightgray;
+    width: 30em;
+    line-height: 1.8em;
+}
+#downloaddiv img{
+    position: absolute;
+    top: 8.1em;
+    left: 40em;
+    height: 334px;
+    width: 530px;
+}
+#brands{
+    position: relative;
+    width: 100%;
+    height: 436px;
+    background-image: url(./pics/ben_img_2.jpg);
+    background-size: cover;
+}
+#lightblackdiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+#brandsgrid{
+    position: absolute;
+    top: 7em;
+    left: 9em;
+    height: 210px;
+    width: 80%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;
+    grid-template-rows: 210px;
+    grid-column-gap: 11.2em;
+}
+.brandorange{
+    position: relative;
+    width: 100px;
+    background-color: orangered;
+    height: 100px;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.3em 0.5em;
+    font-size: 55px;
+}
+.applediv span{
+    color: white;
+    font-family: sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 3.2em;
+}
+.applediv p{
+    color: orangered;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 8.5em;
+    font-weight: bold;
+}
+.androiddiv i{
+    position: absolute;
+    font-size: 43px;
+    padding: 0.2em 0em;
+}
+/* pricingdiv */
+#pricingdiv{
+    height: 990px;
+    width: 100%;
+    background-color: #f2f3f5;
+    position: relative;
+    padding: 1px;
+}
+#pricing{
+    font-family: sans-serif;
+    /* position: absolute; */
+    margin-top: 4.1em;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+#pricingdiv p{
+    color: rgb(192, 186, 186);
+    font-family: sans-serif;
+    position: absolute;
+    top: 15.5em;
+    left: 14.5em;
+    width: 50em;
+    text-align: center;
+    line-height: 2em;
+}
+#pricingdiv p span{
+    color: gray;
+}
+#pricinggrid{
+    position: relative;
+    height: 535px;
+    width: 87.5%;
+    /* border: 1px solid red; */
+    top: 10.6em;
+    left: 4.7em;
+    display: grid;
+    grid-template-columns: 350px 350px 350px ;
+    grid-template-rows: 100%;
+    grid-column-gap: 1.8em;
+}
+ #pricinggrid div[class^=div]{
+    position: relative;
+}
+.dollar{
+    position: absolute;
+    top: 1em;
+    left: 2.6em;
+    color: orangered;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.monthly{
+    position: absolute;
+    top: 8em;
+    left: 7em;
+    color: orangered;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.clipdiv{
+    position: absolute;
+    top: 7.7em;
+    left: 2em;
+    height: 2.7em;
+    width: 10em;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-family: sans-serif;
+    clip-path: polygon(0 52%, 15% 0, 86% 0, 100% 47%, 88% 100%, 16% 100%);
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.7em 3em;
+}
+.diskspace{
+    position: relative;
+    top: 15.7em;
+    left: 6em;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 1em;
+}
+.bandwidth{
+    left: 4.3em;
+}
+.subdomains{
+    left: 6.5em;
+}
+.domains{
+    left: 7em;
+}
+.signup{
+    position: relative;
+    top:18em;
+    left: 6em;
+    height: 42px;
+    width: 133px;
+    background-color: #333;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0.7em 2em;
+    overflow: hidden;
+    z-index: 2;
+}
+.signup span{
+    z-index: 1;
+}
+.signup::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -110%;
+    height: 100%;
+    width: 100%;
+    background-color: orangered;
+    /* border: 1px solid red; */
+    transition-duration: 0.5s;
+    z-index: -1;
+}
+
+.signup:hover.signup::after{
+    left: 0;
+}
+.div1{
+    box-shadow: none;
+}
+#pricinggrid div[class^=div]:hover .clipdiv{
+    background-color: orangered;
+    transition-duration: 0.4s;
+}
+.div1:hover{
+    box-shadow:0 0 1.75rem rgb(2 3 3 / 15%);
+}
+.div2{
+    box-shadow:0 0 1.75rem rgb(2 3 3 / 15%);
+}
+/* screenshotdiv */
+#screenshotdiv{
+    width: 100%;
+    height: 1300px;
+    background-color: #ffffff;
+    position: relative;
+}
+#screenshotdiv h3{
+font-family: sans-serif;
+font-size: 42px;
+font-weight: 600;
+text-align: center;
+top: 3em;
+position: relative;
+}
+#screenshotdiv p{
+    color: gray;
+    font-family: sans-serif;
+    position: absolute;
+    top: 13.5em;
+    left: 14em;
+    letter-spacing: 1px;
+    width: 53em;
+    text-align: center;
+    line-height: 2em;
+}
+.skewpic{
+    position: relative;
+    top: 19em;
+    left: 2em;
+    height: 799px;
+    width: 400px;
+    background-image: url(./pics/screenshot_04.png);
+    background-size: cover;
+    transform: rotateY(30deg);
+    transform: skewY(-5deg);
+    display: inline-block;
+    /* border: 1px solid red; */
+    
+}
+.skewpic2{
+    background-image: url(./pics/app-mobile.png);
+    background-size: cover;
+    transform: none;
+}
+.startpic{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-image: url(./pics/screenshot_01.png);
+    background-size: cover;
+    border-radius: 2em;
+    background-position-x: -1em ;
+}
+.skewpic3{
+    background-image: url(./pics/screenshot_02.png);
+    background-size: cover;
+}
+/* teamdiv */
+#teamdiv{
+    width: 100%;
+    height: 1110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.googleplay{
+    height: 106px;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0.5em;
+}
+.googleplay i{
+    font-size: 30px;
+}
+.googleplay p{
+    color: lightgray;
+    font-size: 14px;
+}
+.googleplay h3{
+    font-size: 22px;
+}
+.googleplay:hover{
+    background-color: orangered;
+    transition-duration: 0.5s;
+}
+#teamdiv h4{
+    position: absolute;
+    top: 7em;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+#teamdiv > p{
+    position: absolute;
+    top: 20em;
+    color: lightgray;
+    font-family: sans-serif;
+    width: 49em;
+    text-align: center;
+    line-height: 2em;
+}
+.teamgrid{
+    height: 555px;
+    width: 1111px;
+    position:absolute;
+    top: 28em;
+    left: 4.3em;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 100%;
+    grid-column-gap: 1.9em;
+}
+.pic{
+    position: relative;
+}
+.pic1{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.pic1 img{
+    width: 100%;
+    height: 100%;
+}
+.orangeicondiv{
+    position: absolute;
+    top: -100%;
+    right: 0.7em;
+    height: 15em;
+    width: 3em;
+    background-color: orangered;
+    transition-duration: 0.5s;
+    z-index: 1;
+}
+.orangeicondiv div{
+    position: relative;
+    height: 3em;
+    width: 98%;
+    color: white;
+    /* border: 1px solid rgb(8, 224, 123); */
+    box-sizing: border-box;
+    padding: 1em 0.7em;
+    font-size: 20px;
+}
+.orangeicondiv div:hover{
+    color: #000;
+    cursor: pointer;
+}
+.pic:hover .orangeicondiv{
+    top: 0%;
+}
+.pic1::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 244, 244);
+    opacity: 0.4;
+    transition-duration: 0.5s;
+}
+.pic:hover > .pic1::after{
+    top: 0%;
+}
+#william{
+    position: relative;
+    font-weight: bold;
+    left: 8.2em;
+    font-size: 16px;
+    top: 1em;
+    font-family: sans-serif;
+}
+#blackcirle{
+    position: relative;
+    left: 10.5em;
+    top: 2.1em;
+    height: 0.4em;
+    width: 0.43em;
+    border-radius: 50%;
+    background-color: #333;
+}
+#founder{
+    position: relative;
+    color: orangered;
+    left: 8.9em;
+    top: 4em;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.pic p{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 14px;
+    width: 20em;
+    text-align: center;
+    position: relative;
+    left:3em;
+    top: 4.5em;
+    line-height: 2em;
+}
+.leftline{
+    position: relative;
+    left: 8.2em;
+    top: 2.25em;
+    height: 1px;
+    width: 30px;
+    transition-duration: 1s;
+    background-color: orangered;
+    /* border: 1px solid red; */
+}
+.pic:hover .leftline{
+    transform: scale(1.2);
+}
+.rightline{
+    position: relative;
+    top: 1.85em;
+    left: 11.2em;
+    height: 1px;
+    width: 30px;
+    transition-duration: 1s;
+    background-color: orangered;
+}
+.pic:hover .rightline{
+    width: 40px;
+}
